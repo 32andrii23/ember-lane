@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ember Lane</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;height:100%;background:#05060c;overflow:hidden}
+  body{display:flex;align-items:center;justify-content:center;font-family:'Press Start 2P',monospace}
+  canvas{image-rendering:pixelated;image-rendering:crisp-edges;display:block;box-shadow:0 0 80px rgba(120,140,255,.08)}
+  #hint{position:fixed;bottom:10px;left:0;right:0;text-align:center;color:#4a4f66;font:9px 'Press Start 2P',monospace;letter-spacing:1px;pointer-events:none}
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="hint">ARROWS / WASD move &nbsp;·&nbsp; E or SPACE talk &nbsp;·&nbsp; ENTER choose &nbsp;·&nbsp; M mute</div>
+<script src="js/sprites.js"></script>
+<script src="js/maps.js"></script>
+<script src="js/story.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/engine.js"></script>
+</body>
+</html>
